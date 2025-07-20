@@ -132,18 +132,16 @@ main > section{
     max-width: 540px;
 }
 
+
 /* responsive media quary*/
-@media screen and (max-width: 576px) {
-    .navbar, 
-    .nav-links, 
-    .teams{
+@media screen and (max-width: 576px){
+    .navbar, .nav-links, .teams{
         flex-direction: column;
     }
     .nav-links{
         gap: 10px;
     }
-
-    .team-img-container, .facts-container{
+    .team-img-container, .some-facts, {
         grid-template-columns: 1fr;
     }
     .our-features{
